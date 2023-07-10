@@ -42,7 +42,6 @@
         url = "{{route('success')}}"
         var phoneNumber = "{{$phone}}";
         var email = "{{$email}}";
-        var payment_id = "{{$razorpayOrder->id}}";
         var options = {
             "key": "rzp_test_ampnuz3NWUHF0M", // Enter the Key ID generated from the Dashboard
             "amount": "{{$razorpayOrder->amount}}", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
